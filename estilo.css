@@ -64,7 +64,7 @@ main{
     background-color: var(--cor2);
     padding: 5px;
     min-width: 475px;
-    max-width: 1280px;
+    max-width: 1000px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
@@ -79,9 +79,38 @@ section>h1{
 
 article{
     background-color: rgb(167, 167, 167);
-    padding: 10px;
-    padding-left: 160px;
+    padding: 40px;
+    padding-left: 100px;
     margin: 5px;
+}
+
+article h2{
+    color: white;
+}
+
+article a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+article#animes{
+    background-image: url('imagens/fundo-Attack-on-titan.jpeg');
+}
+
+article#series{
+    background-image: url('imagens/fundo-loki.png');
+}
+
+article#filmes{
+    background-image: url('imagens/fundo-irmao-urso.jpg');
+}
+
+article#jogos{
+    background-image: url('imagens/fundo-clash-of-clans.jpeg');
+}
+
+article#livros{
+    background-image: url('imagens/fundo-Jurassic-Park.jpg');
 }
 
 section.fim{
