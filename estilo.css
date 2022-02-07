@@ -79,7 +79,7 @@ section>h1{
 
 article{
     background-color: rgb(167, 167, 167);
-    padding: 40px 40px 100px 40px;
+    padding: 40px 40px 150px 40px;
     margin: 5px;
 }
 
@@ -100,30 +100,37 @@ article#animes{
     background-image: url('imagens/fundo-Attack-on-titan.jpeg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 article#series{
-    background-image: url('imagens/fundo-loki.png');
+    background-color: #010101;
+    background-image: url('imagens/fundo-loki-logo.jpg');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
+    background-size: contain;
 }
 
 article#filmes{
     background-image: url('imagens/fundo-irmao-urso.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 article#jogos{
-    background-image: url('imagens/fundo-clash-of-clans.jpeg');
+    background-image: url('imagens/fundo-clash-of-clans-g.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 629px 273px;
 }
 
 article#livros{
+    background-color: black;
     background-image: url('imagens/fundo-Jurassic-Park.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 
 section.fim{
